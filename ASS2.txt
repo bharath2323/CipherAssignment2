@@ -1,0 +1,75 @@
+1) What do you mean by a Data structure? 
+A: Data Structure is the way of oganizing the data and which in turn makes the accessing the data simple and effective.
+
+2)What are some of the applications of DS?
+A: Expression Handling,Backtracking Procedure,Function Calls(Recursion),Efficient insering and deleting,routing techniques etc
+
+3) What are the advantages of a Linked list over an array?
+A: The advantages are :
+   1. Deletion
+   2. Insertion
+   3. Resizing
+
+4) Write the syntax in C to create a node in the singly linked list?
+A: structure node
+  {
+    int data;
+    structure node* next;
+  };
+ int main()
+ {
+     struct node st;
+     st.data=3;
+     st->next=NULL;
+ }
+
+5) What is the use of a doubly-linked list when compared to that of a singly
+linked list?
+A: Traversing in both the directions, insertion and deletion becomes more efficient
+
+6) What is the difference between an Array and Stack?
+A : An array is accessed using index based method while only a top element can be accessed in stack. Stack is LIFO datastructure. 
+    Insertion and deletion operation are performed on array while pop and push operations are performed on stack.
+
+7) What are the minimum number of Queues needed to implement the priority
+queue?
+A : Two. one is used for actual storage and the other is used for storing priorities.
+
+8) What are the different types of traversal techniques in a tree?
+A : 1.Preorder traversal
+    2.Inorder traversal
+    3.Postorder traversal
+
+9) Why it is said that searching a node in a binary search tree is efficient than that of
+a simple binary tree?
+A: In binary search tree, for a given node, all the elements of left subtree are less than the node and all the elements of the right subtree are more than the node.
+   While in normal binary tree there is no such organization,the elements are added to the tree randomly. Hence due to a good organising technique in BST searching
+   in BST is efficient.
+
+10) What are the applications of Graph DS?
+A: Maps,Shortest paths, routing techniques.
+
+11) Can we apply Binary search algorithm to a sorted Linked list?
+A: No because in binary search we need to access the middle element directly and go to left or right of the middle element according to the specified condition.In linked list we 
+   cannot access the middle element directly and also we cannot go backwards.
+
+12) When can you tell that a Memory Leak will occur?
+A: Memory leak occurs when programmers create a memory in heap and forget to delete it.
+
+13) How will you check if a given Binary Tree is a Binary Search Tree or not?
+A: Recursively traverse to each and every node and check whether the node is BST or not by comparing with the node data and left data and right data
+
+14) Which data structure is ideal to perform recursion operation and why?
+A:  The ideal data structure for recursion is stack because recursion follows LIFO process that is the function that was called the last returns first.
+    As stack follows the LIFO structure stack data structure is ideal.
+
+15) What are some of the most important applications of a Stack?
+A:  Recursion,Expression evaluation,backtracking,memory management
+
+16) Convert the below given expression to its equivalent Prefix And Postfix notations.
+A:  incomplete question
+
+25) How to find the shortest path between two vertices 
+A: Using Djkshatra's algorithm
+
+
